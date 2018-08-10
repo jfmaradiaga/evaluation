@@ -5,4 +5,3 @@ README.md:
 	echo "" >> README.md
 	echo "Number of lines in guessinggame.sh:" >> README.md
 	wc -l guessinggame.sh | egrep -o "[0-9]+" >> README.md
-	echo "[Pages](https://github.com/jfmaradiaga/evaluation/blob/master/README.md)." >> README.md
